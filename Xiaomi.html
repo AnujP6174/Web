@@ -1,0 +1,108 @@
+<html>
+<head>
+	<title>Xiaomi India</title>
+	<link rel="stylesheet" type="text/css" href="slider.css">
+	<body style="background-color:orange">
+
+		<img src="mi.jpg" width=50 height=50 style="float:left;margin-right:20px;border solid black 1px">	
+		<h1 style="line-height:50px;">Xiaomi India</h1>
+		<h2><a href="signin.html" target="_blank" style="float:right;color:black">SignIn</a><br>
+		<hr><br>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/FNGoExJlLQY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<style>
+
+<!--
+{
+	margin:0px;
+	padding:0px;
+}-->
+
+#container ul
+{
+	list-style:none;
+}
+
+#container ul li
+{
+	background-color:orange;
+	width:180px;
+	border:1px solid black;
+	float:left;
+	font-size:20px;
+	text-align:center;
+	height:50px;
+	line-height:50px;
+	cursor:pointer;
+	z-index:100;
+}
+
+#container ul li:hover
+{
+	background-color:green;
+}
+
+#container ul li ul li:hover
+{
+	background-color:purple;
+}
+
+#container ul ul
+{
+	display:none;
+}
+
+#container ul li:hover >ul
+{
+	display:block;
+}
+
+</style>
+
+<div class="slider"> 									<!--slider starting-->
+	<figure>
+		<div class="slide">
+			<img src="mi8.jpg" alt="">
+		</div>
+		<div class="slide">
+			<img src="mi4.jpg" alt="">
+		</div>
+		<div class="slide">
+			<img src="mi5.jpg" alt="">
+		</div>
+		<div class="slide">
+			<img src="mi11.jpg" alt="">
+		</div>
+		<div class="slide">
+			<img src="mi7.jpg">
+		</div>
+	</figure>
+</div>													<!--slider ending-->
+
+<div id="container">									<!--menu starting-->
+<ul style=position:absolute;>
+	<li>Mi Phones
+		<ul>
+			<li><a href="a2.html"style="color:black">Mi A2</li>
+			<li><a href="a3.html"style="color:black">Mi A3</li>
+		</ul>
+	<li>Redmi Phones
+		<ul>
+			<li><a href="note6.html"style="color:black">Redmi Note 6</li>
+			<li><a href="6pro.html"style="color:black">Redmi Note 6 Pro</li>
+			<li><a href="7pro.html"style="color:black">Redmi Note 7 Pro</li>
+		</ul>
+	<li>Mi TV
+		<ul>
+			<li><a href="tv.html"style="color:black">Mi TV</li>
+			<li><a href="tv4x.html"style="color:black">Mi TV 4x</li>
+		</ul>
+	<li>Fitness
+		<ul>
+			<li><a href="band2.html"style="color:black">Mi Band 2</li>
+			<li><a href="band3.html"style="color:black">Mi Band 3</li>
+		</ul>
+</ul>
+</div>
+</body>
+</html>

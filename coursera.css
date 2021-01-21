@@ -1,0 +1,63 @@
+body{
+	background: lightgray;
+	margin:2%;
+	font-size: 110%;
+
+}
+
+header, footer{
+	background: grey;
+	background: -webkit-linear-gradient(#666666 10%, #00b7ea 100%);
+}
+
+header{
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+h1{
+	color: lightcoral;
+}
+
+nav{
+	font-variant: small-caps;
+	font-family: Arial, "Times New Roman", serif;
+    font-size: 100%;
+}
+
+nav a{
+	display: inline-block;
+	background-color: lightsalmon;
+	width:23%;
+}
+
+h2{
+	color: #666666;
+	background: #00b7ea;
+}
+
+.half{
+	width:45%;
+	margin-right:2%;
+	display:inline-block;
+	float:left;
+}
+.whole{
+	clear:both;
+}
+summary{
+	font-style:normal;
+}
+details
+{
+	font-style: italic;
+}
+footer
+{
+	height:65px;
+	clear: both;
+}
+img
+{
+	width: 60px;
+}
